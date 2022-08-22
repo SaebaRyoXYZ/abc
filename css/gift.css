@@ -1,0 +1,52 @@
+body{
+  /* background-image: linear-gradient(MidnightBlue, Navy, MediumBlue, Blue, DodgerBlue, DeepSkyBlue, LightSkyBlue); */
+  background-image: linear-gradient(LightSkyBlue, DeepSkyBlue, DodgerBlue, #1979ff, Blue, MediumBlue, Navy, MidnightBlue);
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  padding: 5% 5% 0 5%;
+}
+.container{
+  height: 80%;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.box{
+  width: 90%;
+  background-image:url("OrangeCats.gif");
+}
+
+.back{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.fr{
+  width: 25%;
+  height: auto;
+  position: absolute;
+  left: 38%;
+  top: 44%;
+}
+.txt{
+  padding: 5% 10%;
+  font-size: 1.8rem;
+  font-family: 'Caveat';
+  color: NavajoWhite;
+  text-align: center;
+}
+#hrt{
+  font-size: 3rem;
+}
+footer{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  color: Lavender;
+  font-family: 'Caveat';
+}

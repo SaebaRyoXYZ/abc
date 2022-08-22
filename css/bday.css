@@ -1,0 +1,113 @@
+body{
+
+  margin: 0;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/002/597/614/non_2x/abstract-dark-hexagon-pattern-on-red-neon-background-technology-style-modern-futuristic-geometric-shape-web-banner-design-you-can-use-for-cover-template-poster-flyer-print-ad-illustration-vector.jpg");
+  /* background-size: cover; */
+  background-repeat: revert;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.greet{
+  margin: 10% 0;
+  width: 80%;
+  height: 80%;
+  /* background-image: url("https://img.wallpapersafari.com/desktop/1680/1050/41/16/SG6Zcv.jpg"); */
+}
+#msg{
+  width: 100%;
+  border-style: solid;
+  border-width: 0.4rem 0.8rem;
+  border-radius: 200px;
+  border-color: #04ffef;
+}
+.con{
+  padding: 5%;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 5%;
+}
+.card{
+  width: 80%;
+  height: 400px;
+  /* background-color: transparent; */
+  /* border: 1px solid transparent; */
+  /* perspective: 1000px; */
+  }
+  .card-in {
+  position: relative;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  transition: 0.75s;
+  transform-style: preserve-3d;
+  }
+  .card:hover .card-in {
+  transform: rotateY(180deg);
+  }
+  .front, .back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  }
+  .front {
+    height: 95px !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: 'Inspiration', cursive;
+  font-size: 40px;
+  justify-content: center;
+  padding: 20% 0 20% 0;
+  }
+  h1{
+    padding-bottom: 166px;
+  }
+  .back {
+    padding: 7% 0 5% 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: Azure;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  transform: rotateY(180deg);
+  }
+  .smily{
+    border-radius: 250px;
+  }
+  button{
+    padding: 2px 40px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: Navy;
+    height: 2.5rem;
+    font-size: 1.5rem;
+  }
+  button:hover{
+    border-color: LightCyan;
+    background-color: Navy;
+  }
+  footer{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    color: Lavender;
+    font-family: 'Caveat';
+  }
+/* .card{
+  padding: 50px;
+  display: flex;
+  align-content: center;
+}
+.card-in{
+  width: 80%;
+} */
